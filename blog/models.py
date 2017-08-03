@@ -3,10 +3,11 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.utils import timezone
+from django.utils.encoding import python_2_unicode_compatible
 
 # Create your models here.
 
-
+@python_2_unicode_compatible
 class Post(models.Model):
     author = models.ForeignKey('auth.User')  # 外键：指向另一个模型的连接
     title = models.CharField(max_length=200)  # 字符数据，可定义多少个字符

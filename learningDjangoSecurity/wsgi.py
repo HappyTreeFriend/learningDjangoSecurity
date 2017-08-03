@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 WSGI config for learningDjangoSecurity project.
 
@@ -6,7 +7,7 @@ It exposes the WSGI callable as a module-level variable named ``application``.
 For more information on this file, see
 https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 """
-
+#WSGI 协议
 import os
 
 from django.core.wsgi import get_wsgi_application
