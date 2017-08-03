@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',   #官方例子
     'blog.apps.BlogConfig',     #一个简单的博客
+    'security_test.apps.SecurityTestConfig',     #安全测试例子
 ]
 
 MIDDLEWARE = [
