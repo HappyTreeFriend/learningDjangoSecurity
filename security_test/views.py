@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import request
 
 # Create your views here.
-
+# TODO:JSON/JAVASCRIPT的XSS防御
 from django.http import JsonResponse
 def returnJSON(request):
     data = {
