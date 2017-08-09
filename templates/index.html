@@ -2,8 +2,16 @@
 <ul>
     <li>安全特性测试</li>
     <ul>
+<p>---------------------------XSS防御----------------------------</p>
+        返回媒体类型json/javascript，默认django框架将'、"进行反斜杠。此时尖括号不会被浏览器解析成html代码片段，因为这个页面媒体类型是json/javascript
         <li><a href="security/return_json/">/security/return_json/</a></li>
         <li><a href="security/return_js/">/security/return_js/</a></li>
+        返回媒体类型html，默认django框架进行html编码</br>
+        <li><a href="security/return_html/">/security/return_html/</a></li>
+<p>---------------------------CSRF防御----------------------------</p>
+        <li></li>
+<p>---------------------------SQLi防御----------------------------</p>
+
     </ul>
     <li>简单应用</li>
     <ul>

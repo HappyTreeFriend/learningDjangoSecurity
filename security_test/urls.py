@@ -19,4 +19,5 @@ from . import views
 urlpatterns = [
     url(r'^return_json/', views.returnJSON, name='returnJSON'),
     url(r'^return_js/', views.returnJS, name='returnJS'),
+    url(r'^return_html/', views.returnHTML, name='returnHTML'),
 ]
